@@ -12,5 +12,6 @@ Clone the repository and install all necessary dependencies. Then, if you are ha
 3. Press Crtl+M to import a file and choose the file "cleanup.bas" and close the Visual Basic editor to return to Excel.
 4. Press Alt+F8 to view the loaded macros in the Excel session.
 5. Run the macro "Cleanup" that performs all the conversion steps.
-6. If there are problems during the macro execution, close Excel, reopen the .csv and repeat the loading process. Then run the four macros manually in order (TextToCol, ColorDivs, ColorDate, SortDate) to identify the problem.
+6. Save the file as .xls. There is no need to save the file as .xlsm since the macros needed to generate the file are no longer required.
+7. If there are problems during the macro execution, close Excel, reopen the .csv and repeat the loading process. Then run the four macros manually in order (TextToCol, ColorDivs, ColorDate, SortDate) to identify the problem.
     
